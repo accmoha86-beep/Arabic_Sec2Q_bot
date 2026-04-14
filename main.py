@@ -264,7 +264,7 @@ async def button(update,context):
             "✅ تم بدء محادثة جديدة!\nاكتب سؤالك الآن 👇",
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🏠 الرئيسية", callback_data="main")]]))
     elif d=="about":
-        await q.edit_message_text("ℹ️ *عن البوت*\n━━━━━━━━━━━━━━━━━━━━━━\n🤖 @Arabic_Sec2Q_bot\n🎓 ثاني ثانوي - ترم ثانٍ 2026\n\n✨ *المحتوى:*\n• 21 ملخصاً | 42 سؤالاً | تقييم فوري",parse_mode="Markdown",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🏠 الرئيسية",callback_data="main")]]))
+        await q.edit_message_text("ℹ️ *عن البوت*\n━━━━━━━━━━━━━━━━━━━━━━\n🤖 @Arabic_Sec2Q_bot\n🎓 ثاني ثانوي - ترم ثانٍ 2026\n\n✨ *المحتوى:*\n• 21 ملخصاً | 69 سؤالاً | تقييم فوري",parse_mode="Markdown",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🏠 الرئيسية",callback_data="main")]]))
     elif d=="subjects":
         await q.edit_message_text("📊 *المواد الدراسية*\nاختر للملخصات:",parse_mode="Markdown",reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("📖 القراءة (3)",callback_data="sum_cat_قراءة"),InlineKeyboardButton("🌸 البلاغة (3)",callback_data="sum_cat_بلاغة")],
